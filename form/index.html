@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Informaition</title>
+</head>
+<body>
+<h1>Personal Information</h1>
+<form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+	<fieldset>
+		<legend>Personal Information</legend>
+		<label for="surmane">Surmane: </label><input type="text" name="surname" id="surname" autocomplete="off" maxlength="15" id="surname"><br/><br/>
+		<label for="name">Name: </label><input type="type" name="name" id="name" value="Yulia" minlength="2"><br/><br/>
+		<label for="age">How old are You? </label><input type="number" name="age" id="age" min="10" max="50"><br/><br/>
+		<label for="birth">Full date of birth: </label><input type="date" name="birth" id="birth"><br/><br/>
+		<label for="agree">I accept the terms of the agreement </label><input type="checkbox" name="agree" id="agree">
+	</fieldset>
+	<fieldset>
+		<legend>Registaration</legend>
+		<label for="mail">E-mail </label><input type="email" name="mail" id="mail" placeholder="Ented your email" required><br/><br/>
+		<label for="pass">Password </label><input type="password" name="pass" id="pass"><br/><br/>
+	</fieldset>
+	<fieldset>
+		<legend>An interesting fact about you!</legend>
+		<p>Do you love cats?
+		<input type="radio" name="ilove" id="ilove" value="Yes"><label for="ilove">Yes</label>
+		<input type="radio" name="idlove" id="idlove" value="Not"><label for="idlove">No</label></p>
+		<label for="colr">What is your favorite color?  </label><input type="color" name="colr" id="colr"><br/><br/>
+		<label for="timebed">What time do you go to bed?  </label><input type="time" name="timebed" id="timebed"><br/><br/>
+		<label for="carmark">What your favorite brand of cars?</label>
+			<select name="carmark" id="carmark">
+				<option value="BMV">BMV</option>
+				<option value="Audi">Audi</option>
+				<option value="Lada">Lada</option>
+			</select>
+		  	<br/><br/>
+		<label for="work">How do you rete out work? </label><input type="range" name="work" id="work">
+	</fieldset>
+	<fieldset>
+		<legend>Your comments:</legend>
+		<textarea name="comm" placeholder="Comments" id="comm"></textarea>
+	</fieldset><br/>
+	<input type="submit" value="Submit"><br>
+</form>
+</body>
+</html>
