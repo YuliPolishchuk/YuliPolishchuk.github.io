@@ -1,0 +1,255 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	 background-color:#2ecc71;
+	 color:#a5a5a5;
+	 font-family: 'Open Sans', sans-serif;
+	 font-size:100%;
+	}
+section{
+	padding:4.375em 8em;
+	text-align:center;
+}
+img{
+	width:100%;
+    display:block;
+}
+header{background-image:url(images/header.png);
+	   background-repeat:no-repeat;
+	   background-size: cover;
+	   height: 37.5em;
+}
+header p{
+	color: #ffffff;
+	font-weight:300;
+	font-size:1.2em;
+	padding-top: 1em;
+	line-height: 1.6em;
+}
+.logo_size img{
+	width: 12.5em;
+	height: 5.93em;
+}
+.header_logo{
+	padding-left: 20.3em;
+	padding-top: 8em;
+	margin-top: 0.672em;
+	width: 23em;
+	
+}
+.header_icons i{
+  color: #fff;
+  font-size: 20pt;
+
+}
+.platform{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #000;
+  text-align: center;
+  margin-right: 20px;
+  line-height: 57px;
+  opacity: 0.5;
+}
+.header_icons{
+  display: flex;
+  width: 600px;
+  margin-top: 1.5em;
+}
+.platform:hover{
+  background: #2ecc71;
+  opacity: 1;
+  transition: 0.5s;
+}
+.main{
+	height: 16em;
+	background-color: #ffffff;
+	display: flex;
+	text-align: center;
+}
+.main img{
+	width: 6.25em;
+	height: 6.25em;
+	margin:0 auto;
+	padding-bottom:2em;
+}
+.main div{
+	width: 20em;
+}
+.main p{
+	font-weight:300;
+	font-size:0.9em;
+}
+.one{
+	margin-right: 8em;
+}
+.two{
+	margin-right: 8em;
+}
+ h3{
+	color: #000;
+	font-weight:500;
+	padding-bottom: 2em;
+}
+.section_three{
+	height: 20em;
+	background-color:#e3e3e3;
+	display: flex;
+
+}
+.section_three p{
+	font-weight: 300;
+}
+
+.Notified{
+	width: 35em;
+	text-align: left;
+}
+video{
+	
+	height: 20em;
+	border-radius: 20px;
+	margin-left: 7em;
+}
+.people{
+	background-color: #fff;
+	height: 20em;
+}
+footer{
+	height: 8em;
+	background-color:#e3e3e3;
+	display: flex;
+}
+footer p {
+	margin: 0 auto;
+	line-height: height;
+	font-weight: 300;
+}
+.contact{
+	width: 35em;
+	margin: 0 auto;
+	display: flex;
+	line-height: 8em;
+}
+b{
+	color: #000;
+
+}
+.people p{
+	font-weight: 300;
+}
+.people h3{
+	padding-bottom: 1em;
+}
+.Jane{
+	width: 50em;
+	margin: 0 auto;
+
+}
+.Jane p{
+	margin-bottom: 1.5em;
+}
+.face{
+	display: flex;
+	margin-top: 1.5em;
+	margin-bottom: 1.8em;
+}
+.face img{
+	margin-left: 0.2em;
+	height: 3.25em;
+	
+}
+form{
+	margin-top: 2em;
+}
+.container-4 input#tex{
+  width: 250px;
+  height: 3em;
+  background: #fff;
+  font-size: 10pt;
+  padding-left: 15px;
+  border-radius: 0.8em;
+  border:1px solid #a5a5a5;
+}
+.container-4 button.icon{
+  border-top-right-radius: 0.8em;
+  border-bottom-right-radius: 0.8em;
+  border: none;
+  height: 3.125em;
+  width: 8em;
+  color: #4f5b66;
+  
+  font-size: 10pt;
+  outline: none;
+ font-weight: 600;
+ margin-left: -18px;
+ background:#2ecc71;
+ color:#fff;
+}
+.section_icons{
+ 	display:flex;
+ 	width: 330px;
+ 	margin: 1.5em auto;
+}
+.section_icons i{
+  color: #fff;
+  font-size: 15pt;
+}
+.section_icon_ball{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e3e3e3;
+  text-align: center;
+  margin-right: 15px;
+  line-height: 45px;
+}
+.section_icon_ball:hover{
+	background: #2ecc71;
+	transition: 0.5s;
+}
+.face img{
+	background-image: linear-gradient(to right, white 40%, transparent 100%);
+  background-size: cover;
+  background-position: center;
+  z-index: 1000;
+}
+.face div{
+	width: 3.125em;
+	height: 3.125em;
+	margin-left: 0.2em;
+	background-color: #2ecc71;
+
+}
+.face_iconOne{
+	background-image: linear-gradient(to right, white 40%, transparent 100%), url(images/face.png);
+}
+.face_iconTwo{
+	background-image: url(images/face1.png);
+}
+.face_iconThree{
+	background-image: url(images/face2.png);
+}
+.face_iconFour{
+	background-image: url(images/face3.png);
+}
+.face_iconFive{
+	background-image: url(images/face4.png);
+}
+.face_iconSix{
+	background-image: url(images/face5.png);
+}
+.face_iconSeven{
+	background-image: url(images/face6.png);
+}
+.face_iconEight{
+	background-image: linear-gradient(to left, white 40%, transparent 100%), url(images/face1.png);
+}
+.face div:hover{
+	 background-blend-mode: screen;
+	transition: 0.5s;
+
+}
