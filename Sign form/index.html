@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<h2>
+			<span>Singup </span>form
+		</h2>
+		<form action="" method="post">
+			<div class="two">
+				<div class="two_surname">
+					<label for="surname"></label>
+					<input type="text" name="surname" autocomplete="off" maxlength="15" id="surname" placeholder="First Name" required>
+				</div>
+				<div class="two_name">
+					<label for="name"></label>
+					<input type="text" name="name" id="name" placeholder="Last name" required>
+				</div>
+			</div>
+			<div class="users">
+				<label for="user"></label>
+				<input type="text" name="user" id="user" placeholder="Username" required>
+			</div>
+			<div class="email">
+				<label for="mail"></label>
+				<input type="email" name="mail" id="mail" placeholder="Email Address" required>
+			</div>
+			<div class="passw">
+				<label for="pass"></label>
+				<input type="password" name="pass" id="pass" placeholder="Password" required>
+			</div>
+			<div>
+				<label for="agree" class="check__label">
+				<input id="agree" type="checkbox" class="check_agree" name="agree">
+				<span class="box"></span>
+						I Agree to the 
+						<a href="#">
+							terms of use
+						</a>
+				</label>
+			</div>
+			
+			<div class="footer">
+				<button type="submit" value="Submit">Sign up</button>
+				<p>Have an account ith us?
+					<a href="#">Login here</a>
+				</p>
+				<div class="ower">
+					<p>
+						<a href="#">More info about us here and</a> 
+					</p>
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
