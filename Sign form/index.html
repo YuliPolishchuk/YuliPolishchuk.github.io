@@ -2,49 +2,50 @@
 <html lang="en">
 <head>
 	<title>Form</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 <body>
 	<div class="main">
 		<h2>
-			<span>Singup </span>form
+			<span class="main_decoration">Singup </span>form
 		</h2>
-		<form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+		<form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post" class="main_form">
 			<div class="two">
 				<div class="two_surname">
 					<label for="surname"></label>
-					<input type="text" name="surname" autocomplete="off" maxlength="15" id="surname" placeholder="First Name" required>
+					<input type="text" name="surname" autocomplete="off" maxlength="15" id="surname" placeholder="First Name" required class="main_form_input">
 				</div>
 				<div class="two_name">
 					<label for="name"></label>
-					<input type="text" name="name" id="name" placeholder="Last name" required>
+					<input type="text" name="name" id="name" placeholder="Last name" required class="main_form_input">
 				</div>
 			</div>
 			<div class="users">
 				<label for="user"></label>
-				<input type="text" name="user" id="user" placeholder="Username" required>
+				<input type="text" name="user" id="user" placeholder="Username" required class="main_form_input">
 			</div>
 			<div class="email">
 				<label for="mail"></label>
-				<input type="email" name="mail" id="mail" placeholder="Email Address" required>
+				<input type="email" name="mail" id="mail" placeholder="Email Address" required class="main_form_input">
 			</div>
 			<div class="passw">
 				<label for="pass"></label>
-				<input type="password" name="pass" id="pass" placeholder="Password" required>
+				<input type="password" name="pass" id="pass" placeholder="Password" required class="main_form_input">
 			</div>
 			<div>
-				<label for="agree" class="check__label">I Agree to the 
-				<input id="agree" type="checkbox" class="check_agree" name="agree">
-				<span class="box"></span>
-					<a href="#">terms of use</a>
+				<input id="agree" type="checkbox" class="check_agree" name="agree" class="box">
+				<label for="agree" class="check_label">I Agree to the 
+					<a href="#" class="main_decoration">
+						terms of use
+					</a>
 				</label>
 			</div>
 			
 			<div class="footer">
-				<button type="submit" value="Submit">Sign up</button>
+				<button type="submit" value="Submit" class="footer_button">Sign up</button>
 				<p>Have an account ith us?
-					<a href="#">Login here</a>
+					<a href="#" class="main_decoration">Login here</a>
 				</p>
 				<div class="ower">
 					<p>
