@@ -327,7 +327,7 @@ body {
 .sectionFive h2 {
 	font-size: 18px;
 	position: relative;
-	padding-left: 30px;
+	padding-left: 35px;
 	text-transform: uppercase;
 }
 
@@ -339,14 +339,14 @@ body {
 	content: url(../images/sectionFive_one.png);
 	display: block;
 	position: absolute;
-	left: -10px;
+	left: 0;
 }
 
 .sectionFive_see h2:before {
 	content: url(../images/sectionFive_two.png);
 	display: block;
 	position: absolute;
-	left: -10px;
+	left: 0;
 }
 
 .sectionFive h2::after {
