@@ -1,5 +1,3 @@
-
-
 body {
 	font-family: 'PT Sans', sans-serif;
 	margin: 0;
@@ -30,9 +28,11 @@ body {
 	text-transform: uppercase;
 	margin-bottom: 0;
 }
+
 .main_header .section_box {
 	padding-bottom: 120px;
 }
+
 .menu a {
 	text-decoration: none;
 	color: #ffffff;
@@ -249,7 +249,7 @@ body {
 	background-color: #d2d5da;
 	margin-top:30px;
    	font-size: 14px;
-    padding: 8px 15px;
+    	padding: 8px 15px;
    	border-radius: 20px;
 	text-align: center;
 	cursor: pointer;
@@ -275,6 +275,7 @@ body {
 	display: inline-block;
 	width: 180px;
 }
+
 .sectionFour h2::after {
 	content: '';
 	width: 180px;
@@ -316,11 +317,9 @@ body {
 	transition: 2s;
 }
 
-
 .sectionFour p {
 	margin-bottom: 27px;
 }
-
 
 .sectionFive .section_box div {
 	width: 250px;
@@ -366,7 +365,7 @@ body {
 	background-image: linear-gradient(to right,#e2e3e4, #e7e7e9);
 }
 
-.sectionSix .section_box{
+.sectionSix .section_box {
 	display: flex;
 }
 
@@ -449,7 +448,6 @@ body {
 .sectionSeven_last {
 	width: 102px;
 }
-
 
 .Elena {
 	font-size: 13px;
