@@ -140,12 +140,10 @@ body {
 .sectionOne h2 {
 	color: #000000;
 	font-size: 16px;
-	padding-top: 40px;
+	padding-top: 50px;
 	padding-bottom: 20px;
 	text-transform: uppercase;
 	position: relative;
-	margin:20px 0 0 0;
-
 }
 
 .sectionOne h2::after {
