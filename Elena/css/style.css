@@ -1,19 +1,17 @@
 
+
 body {
 	font-family: 'PT Sans', sans-serif;
 	margin: 0;
 	padding: 0;
-}
-
-.main {
-	width: 800px;
 	background-color: #f5f5f5;
-	margin: 0 auto;
 }
 
-.main section {
+.section_box {
+	width: 580px;
 	box-sizing: border-box;
-	padding:60px 110px;
+	padding: 65px 0;
+	margin: 0 auto;
 }
 
 .text_dec {
@@ -27,14 +25,14 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #ffffff;
-	height: 590px;
 	text-align: center;
-	padding-top: 65px;
-	padding-bottom: 120px;
 	box-sizing: border-box;
 	text-transform: uppercase;
+	margin-bottom: 0;
 }
-
+.main_header .section_box {
+	padding-bottom: 120px;
+}
 .menu a {
 	text-decoration: none;
 	color: #ffffff;
@@ -47,7 +45,7 @@ body {
 } 
 
 .menu ul {
-	padding-inline-start: 0;
+	padding-left: 0;
 } 
 
 .logo {
@@ -61,6 +59,7 @@ body {
 .main_header h1 {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 59px;
+	margin: 0 0 40px 0;
 }
 
 .line {
@@ -94,7 +93,7 @@ body {
     border: 0;
     cursor: pointer;
 	background-color: #50c3af;
-	margin: 65px 0 115px 0;
+	margin-top: 65px;
     font-size: 15px;
     font-weight: 600;
     padding: 14px 45px;
@@ -115,10 +114,9 @@ body {
 .sectionThree,
 .sectionFive {
 	background-color: #eeeeef;
-	margin: 0 auto;
 }
 
-.sectionOne div {
+.sectionOne .section_box div {
 	display: inline-block;
 	box-sizing: border-box;
 	width: 165px;
@@ -146,6 +144,8 @@ body {
 	padding-bottom: 20px;
 	text-transform: uppercase;
 	position: relative;
+	margin:20px 0 0 0;
+
 }
 
 .sectionOne h2::after {
@@ -160,7 +160,7 @@ body {
 	left: 15px;
 }
 
-.sectionTwo div {
+.sectionTwo .section_box div {
 	display: inline-block;
 	box-sizing: border-box;
 	width: 265px;
@@ -189,6 +189,7 @@ body {
 	padding-bottom: 20px;
 	text-transform: uppercase;
 	position: relative;
+	margin: 0;
 }
 
 .section_button_green {
@@ -203,6 +204,7 @@ body {
 	color: #ffffff;
 	position: relative;
 	box-sizing: border-box;
+	display: inline-block;
 }
 
 .section_button_green:hover {
@@ -226,16 +228,14 @@ body {
 	background-image: linear-gradient(to right,#e2e3e4, #eeeeef);
 }
 
-.sectionThree div {
-	width: 580px;
-}
-
 .sectionThree h2 {
 	font-size: 18px;
 	padding-bottom: 22px;
 	padding-left: 30px;
 	position: relative;
 	text-transform: uppercase;
+	margin: 0;
+
 }
 
 .sectionThree h2:before {
@@ -248,15 +248,16 @@ body {
 .section_button_grey {
 	background-color: #d2d5da;
 	margin-top:30px;
-    	font-size: 14px;
-    	padding: 8px 15px;
-   	 border-radius: 20px;
+   	font-size: 14px;
+    padding: 8px 15px;
+   	border-radius: 20px;
 	text-align: center;
 	cursor: pointer;
 	text-decoration: none;
 	color: #ffffff;
 	position: relative;
 	box-sizing: border-box;
+	display: inline-block;
 
 }
 
@@ -269,7 +270,7 @@ body {
 	transition:2s;
 }
 
-.sectionFour div {
+.sectionFour .section_box div {
 	box-sizing: border-box;
 	display: inline-block;
 	width: 180px;
@@ -296,6 +297,8 @@ body {
 	padding-bottom: 10px;
 	text-transform: uppercase;
 	position: relative;
+	margin: 0;
+
 }
 
 .sectionFour a {
@@ -319,7 +322,7 @@ body {
 }
 
 
-.sectionFive div {
+.sectionFive .section_box div {
 	width: 250px;
 	display: inline-block;
 }
@@ -329,6 +332,8 @@ body {
 	position: relative;
 	padding-left: 35px;
 	text-transform: uppercase;
+	margin: 0;
+
 }
 
 .sectionFive_send {
@@ -361,14 +366,14 @@ body {
 	background-image: linear-gradient(to right,#e2e3e4, #e7e7e9);
 }
 
-.sectionSix {
-	box-sizing: border-box;
+.sectionSix .section_box{
 	display: flex;
 }
 
-.sectionSix div {
+.sectionSix .section_box div {
 	box-sizing: border-box;
 	width: 275px;
+	margin-left: 20px;
 }
 
 .sectionSix h2 {
@@ -380,14 +385,9 @@ body {
 	position: relative;
 }
 
-
-.sectionSix img {
-	display: block;
-	margin-right: 20px;
-}
-
 .sectionSix p {
 	padding-bottom: 20px;
+	margin: 0;
 }
 
 .sectionSix h2::after {
@@ -412,13 +412,12 @@ body {
 	font-size: 15px;
 	position: relative;
 	text-transform: uppercase;
-
+	margin: 0;
 } 
 
 .sectionSeven h2::after {
 	content: '';
 	position: absolute;
-	left: 0;
 	top: 35px;
 	left: 145px;
 	box-sizing: border-box;
@@ -431,13 +430,8 @@ body {
 .sectionSeven_image {
 	margin-top: 40px;
 	box-sizing: border-box;
-	display: inline-block;
 	width: 580px;
-	display: flex;
-}
-
-.sectionSeven img {
-	display: inline-block;
+	display: flex;	
 }
 
 .sectionSeven_marg {
@@ -451,22 +445,28 @@ body {
 	position: absolute;
 	left:150px;
 }
+
 .sectionSeven_last {
 	width: 102px;
 }
 
-footer {
-	padding:20px 110px;	
-}
 
 .Elena {
 	font-size: 13px;
 }
-footer span {
+
+.section_footer {
+	width: 580px;
+	box-sizing: border-box;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+.section_foote span {
 	color: #000000;
 } 
 
-footer div {
+.section_footer div {
 	box-sizing: border-box;
 	display: inline-block;
 }
@@ -475,6 +475,7 @@ footer div {
 	font-size: 14px;
 	color: #787b80;
 	margin-top:20px;
+	display: inline-block;
 }
 
 .icon i {
@@ -488,7 +489,7 @@ footer div {
 	padding-top: 20px;
 }
 
-footer a {
+.section_footer a {
 	text-decoration: none;
 	color: #787b80;
 }
