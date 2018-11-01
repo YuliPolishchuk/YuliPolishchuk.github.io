@@ -39,9 +39,9 @@
         }
 
         .fourth.block .colored {
-            width: 30%; 
+            width: 35%; 
             display: inline-block;
-    
+            margin-right:-5px;
         }
 
         .fifth.block,
@@ -49,8 +49,8 @@
             text-align: center;
         }
 
-        .fourth.block .colored:nth-child(3n+1) {
-            width: 35%;
+        .fourth.block .colored:nth-child(2) {
+            width: 30%;
         }
 
         .fifth.block .colored {
