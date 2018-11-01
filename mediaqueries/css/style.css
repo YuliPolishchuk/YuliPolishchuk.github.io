@@ -97,14 +97,17 @@
 @media screen and (max-width: 960px) and (min-width: 768px) {
     	.first.block  .plain,
     	.second.block  .colored,
-    	.fourth.block .colored, 
-    	.fifth.block .colored {
+    	.fourth.block .colored {
         	width: 50%;
         	display: block;
         	box-sizing: border-box;
         	margin: 0 auto;
     	}
-
+	.fifth.block .colored {
+		width: 50%;
+        	display: inline-block;
+        	box-sizing: border-box;
+	}
     	.fourth.block .colored:nth-last-child(2),
     	.fifth.block .colored:nth-last-child(2)  {
         	width: 100%
