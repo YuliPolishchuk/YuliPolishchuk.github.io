@@ -26,14 +26,16 @@
 
 @media screen and (max-width: 1800px) and (min-width: 1201px) {
         .first.block  .plain,
-        .second.block .colored,
-        .third.block .colored {
+        .second.block .colored  {
             width: 50%;
             float: left;
             box-sizing: border-box;
             text-align: center;
         }
-
+        
+        .third.block .colored {
+                width:50%;
+        }
         .third.block .colored:nth-last-child(2) {
             width: 100%;
         }
