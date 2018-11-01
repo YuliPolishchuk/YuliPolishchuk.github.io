@@ -34,7 +34,8 @@
         }
         
         .third.block .colored {
-                width:50%;
+            width:50%;
+            margin:0 auto;
         }
         .third.block .colored:nth-last-child(2) {
             width: 100%;
