@@ -91,17 +91,17 @@ body {
 
 .main_header_button {
 	display: inline-block;
-    text-decoration: none;
-    color: #ffffff;
-    position: relative;
-    border: 0;
-    cursor: pointer;
+    	text-decoration: none;
+    	color: #ffffff;
+    	position: relative;
+    	border: 0;
+    	cursor: pointer;
 	background-color: #50c3af;
 	margin-top: 65px;
-    font-size: 15px;
-    font-weight: 600;
-    padding: 14px 45px;
-    border-radius: 25px;
+    	font-size: 15px;
+    	font-weight: 600;
+    	padding: 14px 45px;
+    	border-radius: 25px;
 
 }
 
@@ -191,14 +191,13 @@ body {
 	padding-bottom: 20px;
 	text-transform: uppercase;
 	position: relative;
-	margin: 0;
 }
 
 .section_button_green {
 	margin-top:30px;
-    font-size: 14px;
-    padding: 8px 15px;
-    border-radius: 20px;
+    	font-size: 14px;
+    	padding: 8px 15px;
+    	border-radius: 20px;
 	text-align: center;
 	background-color: #50c3af;
 	cursor: pointer;
@@ -236,8 +235,6 @@ body {
 	padding-left: 30px;
 	position: relative;
 	text-transform: uppercase;
-	margin: 0;
-
 }
 
 .sectionThree h2:before {
@@ -300,8 +297,6 @@ body {
 	padding-bottom: 10px;
 	text-transform: uppercase;
 	position: relative;
-	margin: 0;
-
 }
 
 .sectionFour a {
@@ -333,8 +328,6 @@ body {
 	position: relative;
 	padding-left: 35px;
 	text-transform: uppercase;
-	margin: 0;
-
 }
 
 .sectionFive_send {
@@ -410,7 +403,6 @@ body {
 	font-size: 15px;
 	position: relative;
 	text-transform: uppercase;
-	margin: 0;
 } 
 
 .sectionSeven h2::after {
