@@ -43,9 +43,8 @@
 
     	.fourth.block .colored {
         	width: 30%;
-        	display: inline-block;        
-        	box-sizing: border-box;
-       		margin: 0 auto;
+        	display: block;  
+		float:left;
     	}
 
     	.fourth.block .colored:nth-child(3n+1) {
@@ -55,8 +54,6 @@
     	.fifth.block .colored {
         	width: 33%;
         	display: inline-block;
-        	box-sizing: border-box;
-        	margin: 0 auto;
     	}
 
 }
