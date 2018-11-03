@@ -40,20 +40,22 @@
         .third.block .colored:nth-last-child(2) {
             width: 100%;
         }
-
-        .fourth.block .colored {
-            width: 35%; 
-            display: inline-block;
-            margin-right:-5px;
+        
+        .fourth .colored {
+                float: left;
         }
 
+        .fourth .colored:nth-child(3),
+        .fourth .colored:first-child{
+                 width: 35%;
+        }
+
+        .fourth .colored:nth-child(2) {
+                width: 30%;
+        }
         .fifth.block,
         .fourth.block {
             text-align: center;
-        }
-
-        .fourth.block .colored:nth-child(2) {
-            width: 30%;
         }
 
         .fifth.block .colored {
