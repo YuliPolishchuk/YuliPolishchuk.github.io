@@ -49,9 +49,9 @@
 
 .main div {
 	display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    	justify-content: center;
+    	align-items: center;
+    	text-align: center;
 	font-size: 30px;
 }
 
@@ -86,8 +86,8 @@
 /*FLEXBOX*/
 
 .header {
-  width: 100%;
-  display: flex;
+ 	 width: 100%;
+  	display: flex;
 }
 
 .textDec {
@@ -99,52 +99,52 @@
 }
 
 .logoFlex {
-  width: 100px;
-  height: 100px;
-  flex-shrink: 0;
+  	width: 100px;
+ 	height: 100px;
+  	flex-shrink: 0;
 }
 
 .menuFlex {
-  height: 100px;
-  flex-grow: 1;
-  flex-shrink: 0;
+  	height: 100px;
+  	flex-grow: 1;
+  	flex-shrink: 0;
 }
 
 .content-container {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  font-size: 30px;
+  	width: 100%;
+  	display: flex;
+  	flex-direction: row;
+  	text-align: center;
+  	font-size: 30px;
 }
 
 .content-container__left {
-  width: calc((100% - 100px) * 0.65 + 100px);
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  	width: calc((100% - 100px) * 0.65 + 100px);
+  	display: flex;
+  	flex-direction: row;
+  	flex-wrap: wrap;
 }
 
 .navFlex {
-  height: 450px;
-  width: calc((100% - 100px) * 0.35);
+  	height: 450px;
+  	width: calc((100% - 100px) * 0.35);
 }
 
 .newsFlex {
-  width: 100px;
-  height: 300px;
-  flex-shrink: 0;
+  	width: 100px;
+  	height: 300px;
+  	flex-shrink: 0;
 }
 
 .listFlex {
-  height: 300px;
-  flex-grow: 1;
-  flex-shrink: 0;
+  	height: 300px;
+  	flex-grow: 1;
+  	flex-shrink: 0;
 }
 
 .footerFlex {
-  height: 150px;
-  width: 100%;
+  	height: 150px;
+  	width: 100%;
 }
 
 
@@ -154,7 +154,7 @@
 .listFlex,
 .footerFlex,
 .navFlex {
-  box-sizing: border-box;
-  border: 1px solid black;
-  border-width: 1px 1px 0 0;
+  	box-sizing: border-box;
+  	border: 1px solid black;
+  	border-width: 1px 1px 0 0;
 }
