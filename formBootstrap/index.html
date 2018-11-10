@@ -52,6 +52,7 @@
             <input type="password" name="pass" id="pass" class="form-control">
           </div>
         </fieldset>
+      </div>
         <fieldset>
           <legend class="mb-4 text-center text-primary">An interesting fact about you!</legend>
           <div class="form-group row">
@@ -96,12 +97,15 @@
             </div>
           </div>
         </fieldset>
-        <fieldset class="md-form">
+        <div class="form-group row">
           <div class="col-lg-6 col-sm-6 offset-lg-2 offset-sm-3">
-            <legend class="md-3 text-primary">Your comments:</legend>
-            <textarea name="comm" placeholder="Comments" id="comm" class="md-textarea form-control" rows="3"></textarea>
+            <fieldset class="md-form">
+              <legend class="md-3 text-primary">Your comments:</legend>
+              <textarea name="comm" placeholder="Comments" id="comm" class="md-textarea form-control" rows="3"></textarea>
+            </fieldset>
           </div>
-        </fieldset>
+        </div>
+
         <div class="flex-column form-inline align-items-end pb-5">
           <input class="btn btn-primary btn-block col-lg-2 col-sm-2 mb-2 p-2" type="submit" value="Submit" name="submit">
           <button class="btn btn-danger btn-block col-lg-2 col-sm-2 p-2" type="reset" >Reset</button>
