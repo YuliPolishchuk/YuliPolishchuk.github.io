@@ -29,16 +29,12 @@ body {
 .item {
   background-color: $color-block;
   position: relative;
-  width: $item-wigth;
-  height: $item-wigth;
-}
+  @include transition(3s background-color);
 
-.item:hover {
-  background-color: $color-yellow;
-}
-
-.item:not(:hover) {
-  @include transition($time);
+  &:hover {
+    background-color: $color-yellow;
+    @include transition(0s background-color);
+  }
 }
 
 .check__label {
@@ -46,43 +42,41 @@ body {
   right: 200px;
   font-size: $size-text;
   top:35px;
+
+  &::before {
+    content: '';
+    height: 11px;
+    width: 11px;
+    background-color: #f0f0f0;
+    position: absolute;  
+    left: -25px;
+    top: 10px;
+  }
 }
 
 .check__input {
   position: absolute;
   bottom: 9999px;
-} 
 
-.check__label::before {
-  content: '';
-  height: 11px;
-  width: 11px;
-  background-color: #f0f0f0;
-  position: absolute;  
-  left: -25px;
-  top: 10px;
-}
+  &:checked {
 
-.check__input:checked + .check__label::before {
-  background-color: inherit;
-  border: 1px solid $color-yellow;
-  @include border-radius(50%);
-}
+    & + .check__label::before {
+      background-color: inherit;
+      border: 1px solid $color-yellow;
+      @include border-radius(50%);
+    }
 
-.check__input:checked ~ .item {    
-  border: 1px solid $color-yellow;    
-  @include border-radius(50%);
-  background-color: inherit;
-  width: 110px;
-  height: 110px;
-  @include transition(0.5s);
-}
+    & ~ .item {
+      border: 0.7px solid $color-yellow;    
+      background-color: inherit;
+      transform: (scale(2.2));
+      @include transition(1s background-color);
+      @include border-radius(50%);
+    }
 
-.check__input:checked ~ .item:hover {
-  background-color: $color-yellow;
-  @include transition(0s);
-}
-
-.check__input:checked ~ .item:not(:hover) {
-  @include transition($time);
+    & ~ .item:hover {
+      background-color: $color-yellow;
+      @include transition(0s background-color);
+    }
+  }
 }
